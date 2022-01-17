@@ -19,6 +19,6 @@
 **4. Teste do Kubernetes**
 - Abrir um terminal e executar o seguinte comando: kubectl get nodes. Deverá aparecer a seguinte saída:
 ➜ kubectl get nodes
-NAME             STATUS   ROLES                  AGE   VERSION
-docker-desktop   Ready    control-plane,master   19d   v1.22.4
 
+NAME.            STATUS.        ROLES.              AGE.  VERSION
+docker-desktop.   Ready.   control-plane,master.    19d.  v1.22.4 
