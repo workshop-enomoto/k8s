@@ -15,3 +15,10 @@
 - Windows: choco install kubernetes-cli. É necessário ter o chocolatey instalado. Caso não tenha instalado: https://chocolatey.org/install. Realizar a instalação via Windows Terminal com permissão de Administrador. 
 - Ubuntu https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/#install-using-native-package-management
 - MacOS: https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/#install-with-homebrew-on-macos
+
+**4. Teste do Kubernetes**
+- Abrir um terminal e executar o seguinte comando: kubectl get nodes. Deverá aparecer a seguinte saída:
+➜ kubectl get nodes
+NAME             STATUS   ROLES                  AGE   VERSION
+docker-desktop   Ready    control-plane,master   19d   v1.22.4
+
