@@ -18,7 +18,7 @@
 **4. Teste do Kubernetes**
 - Abrir um terminal e executar o seguinte comando: kubectl get nodes. Deverá aparecer a seguinte saída:
 
-NAME             STATUS   ROLES           AGE   VERSION
+NAME             STATUS   ROLES           AGE   VERSION\
 docker-desktop   Ready    control-plane   2d    v1.25.4
 
 **5. Instalação do AWS CLI
