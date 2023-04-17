@@ -31,3 +31,7 @@ aws-cli/2.11.2 Python/3.11.2 Linux/5.10.16.3-microsoft-standard-WSL2 exe/x86_64.
 
 **7. Criar uma nova conta na Amazon Web Services ou utilizar um já existente. Para criação de uma nova conta é necessário o cartão de crédito internacional para realização da criação de um cluster AWS Elastic Kubernetes Services (EKS). O período de utilização do cluster e gasto será de inteira responsabilidade do Aluno.**
 - https://portal.aws.amazon.com/billing/signup#/start/email
+
+**8. Durante o workshop será utiliza o VSCode**
+- https://code.visualstudio.com/
+
