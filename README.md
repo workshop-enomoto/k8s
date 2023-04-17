@@ -3,13 +3,12 @@
 **Pré Requisitos:**
 
 **1. Instalação e configuração do Docker Desktop**
-- Windows: https://www.docker.com/products/docker-desktop
-- Ubuntu 20.04: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-pt
-- MacOS: https://hub.docker.com/editions/community/docker-ce-desktop-mac
+- Windows 11: https://www.docker.com/products/docker-desktop
+- Ubuntu Jellyfish 22.04 (LTS): https://docs.docker.com/desktop/install/ubuntu/
+- MacOS: https://docs.docker.com/desktop/install/mac-install/
 
 **2. Habilitar o Kubernetes no Docker Desktop**
-- Windows e Mac: https://docs.docker.com/desktop/kubernetes/
-- Ubuntu 20.04, vamos utilizar o microk8s: https://linuxhint.com/install-kubernetes-ubuntu-single-node/ e https://microk8s.io
+- Windows, Ubuntu e Mac: https://docs.docker.com/desktop/kubernetes/
 
 **3. Instalar o kubectl**
 - Windows: choco install kubernetes-cli. É necessário ter o chocolatey instalado. Caso não tenha instalado: https://chocolatey.org/install. Realizar a instalação via Windows Terminal com permissão de Administrador. 
@@ -19,5 +18,13 @@
 **4. Teste do Kubernetes**
 - Abrir um terminal e executar o seguinte comando: kubectl get nodes. Deverá aparecer a seguinte saída:
 
-NAME.            STATUS.        ROLES.              AGE.  VERSION
-docker-desktop.   Ready.   control-plane,master.    19d.  v1.22.4 
+NAME             STATUS   ROLES           AGE   VERSION
+docker-desktop   Ready    control-plane   2d    v1.25.4
+
+**5. Instalação do AWS CLI
+- https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html. Depois de instalar executar o comando: aws --version. Deverá aparecer a seguinte saída: 
+aws-cli/2.11.2 Python/3.11.2 Linux/5.10.16.3-microsoft-standard-WSL2 exe/x86_64.ubuntu.22 prompt/off
+
+**6. Instalação do AWS eksctl
+- https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html. Depois de instalar executar o comando: eksctl version. Deverá aparecer a seguinte saída:
+0.137.0
