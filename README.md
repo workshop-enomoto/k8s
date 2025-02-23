@@ -33,5 +33,5 @@ docker-desktop   Ready    control-plane   23h   v1.31.4
 - Instalar o Windows Subsystem for Linux (WSL): https://learn.microsoft.com/en-us/windows/wsl/install
 - Instalar a distro do Ubuntu: https://documentation.ubuntu.com/wsl/en/latest/howto/install-ubuntu-wsl2/
 - Ir em Configurações no Docker Desktop -> Kubernetes -> WSL Integration
-- ![WSL Integration](wls-integration.png)
+- ![WSL Integration](wls-integration.png) 
 
